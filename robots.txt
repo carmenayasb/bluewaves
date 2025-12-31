@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://carmenayasb.github.io/bluewaves/sitemap.xml
+
+# Bloquear acceso a archivos y carpetas sensibles
+Disallow: /assets/vendors/
+Disallow: /*.json$
+Disallow: /*.xml$ 
+
+# Permitir rastreo de imágenes
+Allow: /assets/imgs/
